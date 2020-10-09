@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace SqrlsARect_A_Live
 {
@@ -22,12 +26,12 @@ namespace SqrlsARect_A_Live
         static void UserOfRectangle(Rectangle r)
         {
 
-            r.Height = 5;
-            r.Width = 4;
+            r.Height = 4;
+            r.Width = 5;
 
             if(r.CalculateArea() != 20)
             {
-                throw new Exception("Bad Area!");
+                throw new Exception("Bad Area! Bad, Bad Area!");
             }
             else
             {
